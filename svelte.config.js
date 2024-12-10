@@ -16,6 +16,9 @@ const config = {
       assets: "build",
       fallback: "index.html",
     }),
+    alias: {
+      $src: "src",
+    },
   },
 };
 
